@@ -89,3 +89,13 @@ body {
   .submit:hover {
     opacity: 0.6;
   }
+
+
+  .foot {
+    padding: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
