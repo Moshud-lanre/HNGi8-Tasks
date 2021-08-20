@@ -1,0 +1,76 @@
+<%- include('partials/header'); %> 
+
+<table cellspacing=20>
+    <tr>
+      <td><img src="image/passport.jpg" alt="Moshood profile picture"></td>
+      <td><h1>Olanrewaju Moshood</h1>
+        <p>
+          <em> developer</em>
+        </p>
+        <p>
+          I'm Backend developer with proficiency in JavaScript, MongoDB, Postgres, Express.
+        </p></td>
+    </tr>
+  </table>
+  <hr size='3'/>
+  <div class="edu">
+    <h3>Education</h3>
+    <ul>
+      <li>
+        2016 - Bachelor of Engineering, Electrical and Electronic Engineering.<br /> University of Ilorin, Ilorin, Kwara State.<br /> 2nd Class Upper Division.
+      </li>
+      <li>
+        2008 - Senior Secondary School Certificate<br />Goverment Day Secondary School Adewole, Ilorin, Kwara State.
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <div class="work">
+    <h3>Work Experience</h3>
+    <table>
+      <head>
+        <th>Dates</th>
+        <th>Work</th>
+      </head>
+      <body>
+        <tr>
+          <td>2018-2020</td>
+          <td>Account Executive at Eunisell Limited</td>
+        </tr>
+        <tr>
+          <td>2016-2017</td>
+          <td>Intern at Ejide Energy limited</td>
+        </tr>
+      </body>
+    </table>
+  </div>
+  
+  <hr>
+  <div class="project">
+    <h3 class="proj-head">Projects</h3>
+    <ul>
+      <li><a href="https://github.com/Moshud-lanre/filteer-image" target="_blank">Image-filter</a>  </li>
+      <li><a href="https://boilerplate-project-urlshortener.moshudlanre.repl.co" target="_blank">Url shortner </a></li>
+      <li> <a href="https://boilerplate-project-timestamp.moshudlanre.repl.co" target="_blank">Time-stamp</a></li>
+      <li><a href="https://github.com/Moshud-lanre/crud-app" target="_blank">crud app</a> </li>
+      <li><a href="https://boilerplate-project-filemetadata.moshudlanre.repl.co" target="_blank" >File-metadata</a> </li>
+      <li> <a href="https://github.com/Moshud-lanre/exchange-rate" target="_blank">Exchange rate converter</a> </li>
+      <li><a href="https://github.com/Moshud-lanre/task-manager" target="_blank">Task manager</a></li>
+      <li> <a href="https://github.com/Moshud-lanre/TodoList" target="_blank">Todo list </a></li>
+      <li> <a href="https://github.com/Moshud-lanre/weather-app" target="_blank">Weather app </a></li>
+      <li> <a href="https://github.com/Moshud-lanre/calculator" target="_blank">Calculator app</a></li>
+  </ul>
+  </div>
+ <div class="form-container">
+   <form class="contact-form"  action="/" method="POST">
+     <h3>Contact</h3>
+     <input type="text" id="name"  placeholder="your name" required>
+     <input type="email" name="mail" id="mail" placeholder="example@email.com" required>
+     <input type="text" name="subject" id="subject" placeholder="subject" required>
+     <textarea name="text" id="text" cols="30" rows="15"></textarea>
+     <button type="submit" class="submit">Send Message</button>
+   </form>
+ </div>
+ 
+
+  <%- include('partials/footer'); -%>
